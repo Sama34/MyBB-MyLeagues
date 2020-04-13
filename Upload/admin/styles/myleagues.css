@@ -1,0 +1,38 @@
+/**
+ * MyLeagues 1.0 for MyBB
+ * Stylesheet for ACP
+ * @author Filip Klar <kontakt@fklar.pl>
+ */
+ 
+.valid_match, .invalid_match {
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: auto;
+}
+
+.valid_match {
+	background: url('../../images/myleagues/valid.png') right no-repeat;
+}
+
+.valid_match:hover {
+	background: url('../../images/myleagues/valid.png') left no-repeat;
+}
+
+.invalid_match {
+	background: url('../../images/myleagues/invalid.png') right no-repeat;	
+}
+
+.invalid_match:hover {
+	background: url('../../images/myleagues/invalid.png') left no-repeat;
+	cursor: pointer;
+}
+
+select {
+	max-width: 200px;
+}
+
+.smallint {
+	max-width: 50px !important;
+	margin: 2px;
+}
